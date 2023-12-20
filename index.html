@@ -13,7 +13,7 @@
           <img src="./logo.png" alt="Logo" width="68" height="68" />
           <h1 class="title">Today I Learned</h1>
         </div>
-        <button>Share a fact</button>
+        <button class="btn btn-large">Share a fact</button>
       </header>
 
       <form action="" class="card fact-form">
@@ -26,19 +26,30 @@
           <option value="science">Science</option>
           <option value="finance">Finance</option>
         </select>
+        <button class="btn btn-large">Post</button>
       </form>
 
       <main class="main">
         <aside>
           <ul>
-            <li>
-              <button>All</button>
+            <li class="category">
+              <button class="btn btn-all-categories">All</button>
             </li>
-            <li>
-              <button>Technology</button>
+            <li class="category">
+              <button
+                class="btn btn-category"
+                style="background-color: #3b82f6"
+              >
+                Technology
+              </button>
             </li>
-            <li>
-              <button>Science</button>
+            <li class="category">
+              <button
+                class="btn btn-category"
+                style="background-color: #16a34a"
+              >
+                Science
+              </button>
             </li>
           </ul>
         </aside>
@@ -46,7 +57,12 @@
           <li class="fact">
             <p>
               React is being developed by Meta (Formerly Facebook)
-              <a href="https://opensource.fb.com/" target="_blank">(Source)</a>
+              <a
+                href="https://opensource.fb.com/"
+                class="source"
+                target="_blank"
+                >(Source)</a
+              >
             </p>
             <span class="tag" style="background-color: #3b82f6"
               >#Technology#</span
@@ -64,6 +80,7 @@
               temporibus, ea nobis. Quidem expedita exercitationem at eum quae?
               <a
                 href="https://www.mother.ly/parenting/millennial-dads-spend-more-time-with-their-kids"
+                class="source"
                 target="_blank"
                 >(Source)</a
               >
